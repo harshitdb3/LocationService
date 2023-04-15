@@ -1,12 +1,20 @@
 package com.location.Location;
 
-public class UserLocation {
+public class User {
 
 
   
   private String name;
   private double latitude;
   private double longitude;
+  private double distance;
+
+  public void setDistance(double distance) {
+    this.distance = distance;
+  }
+  public double getDistance() {
+    return this.distance;
+  }
 
   
   public String getName() {
